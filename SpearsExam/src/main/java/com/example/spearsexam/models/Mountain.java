@@ -56,7 +56,7 @@ public class Mountain {
 
     public Integer getDifficulty(){
         return (height / 1000) + 1;
-        
+
     }
 
 
