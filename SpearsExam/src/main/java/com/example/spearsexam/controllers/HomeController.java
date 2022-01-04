@@ -36,4 +36,9 @@ public class HomeController extends BaseController {
         model.addAttribute("mountains", mountains);
         return "index";
     }
+
+    @GetMapping
+    public String hello() {
+        return "hello!";
+    }
 }
